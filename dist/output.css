@@ -760,6 +760,10 @@ video {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
+.transform {
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
 @keyframes rotating {
   0% {
     transform: rotate(0.0deg);
@@ -816,10 +820,6 @@ video {
 
 .grid-cols-2 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-
-.grid-cols-5 {
-  grid-template-columns: repeat(5, minmax(0, 1fr));
 }
 
 .grid-rows-2 {
@@ -1141,33 +1141,8 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-primary {
-  --tw-bg-opacity: 1;
-  background-color: rgb(190 170 47 / var(--tw-bg-opacity));
-}
-
-.bg-secondary {
-  --tw-bg-opacity: 1;
-  background-color: rgb(251 79 41 / var(--tw-bg-opacity));
-}
-
-.bg-tertiary {
-  --tw-bg-opacity: 1;
-  background-color: rgb(175 68 98 / var(--tw-bg-opacity));
-}
-
-.bg-quaternary {
-  --tw-bg-opacity: 1;
-  background-color: rgb(197 55 115 / var(--tw-bg-opacity));
-}
-
-.bg-quinary {
-  --tw-bg-opacity: 1;
-  background-color: rgb(69 47 112 / var(--tw-bg-opacity));
-}
-
-.bg-\[url\(\'\/src\/images\/bg1\.jpg\'\)\] {
-  background-image: url('/src/images/bg1.jpg');
+.bg-\[url\(\'https\:\/\/images\.pexels\.com\/photos\/326333\/pexels-photo-326333\.jpeg\?auto\=compress\&cs\=tinysrgb\&w\=1260\&h\=750\&dpr\=1\'\)\] {
+  background-image: url('https://images.pexels.com/photos/326333/pexels-photo-326333.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
 }
 
 .bg-gradient-to-r {
@@ -1386,11 +1361,6 @@ video {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
-}
-
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
 }
 
 .font-bold {
@@ -1679,31 +1649,6 @@ video {
 .hover\:bg-purple-700:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(126 34 206 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-secondary:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(251 79 41 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-tertiary:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(175 68 98 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-quaternary:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(197 55 115 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-quinary:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(69 47 112 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-primary:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(190 170 47 / var(--tw-bg-opacity));
 }
 
 .hover\:text-blue-600:hover {
